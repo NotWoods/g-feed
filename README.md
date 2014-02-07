@@ -30,19 +30,24 @@ These variables can be used inside the 'loadPosts()' function.
 * `entry.plusones` The amount of +1's on the post.
 * `entry.comments` The amount of comments on the post.
 * `entry.reshares` The amount of times the post has been reshared.
-### Thumbnails
+
+#### Thumbnails
 * `entry.thumbnails[].link` The link to the image, album, or video.
-* `entry.thumbnails[].url` The source url for the image or video thumbnail
+* `entry.thumbnails[].url` The source url for the image or video thumbnail.
+
 If an image or video, only 1 item will be present in the array.  If an album,
 then multiple items will be present.
-### Linked Article
+
+#### Linked Article
 * `entry.article.displayName` The title of the linked article.
 * `entry.article.url` The url for the article.
 * `entry.article.content` This property contains  a snippet of text from the article.
-### Author
+
+#### Author
 * `entry.author.name` The post author's name, which is suitable for display
 * `entry.author.url` A url to the post author's profile
 * `entry.author.imageURL` A source url for the profile image of the post author
+
 If the post was reshared from another user, that user's information will be used 
 for the author.  Otherwise, the userId specified will be used as the author.
 
