@@ -1,3 +1,5 @@
+![](thumb.png)
+
 G+ Feed
 =======
 Creates a group of articles on your website from a Google+ stream, using the API.
